@@ -1,0 +1,19 @@
+﻿<Window x:Class="ConexionGestionPedidos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConexionGestionPedidos"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Clientes" HorizontalAlignment="Left" Margin="127,63,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <ListBox Name="listaCliente" Margin="77,127,536,58" SelectionChanged="listaCliente_SelectionChanged"/>
+        <Label Content="Pedidos" HorizontalAlignment="Left" Margin="353,63,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <ListBox Name="listaPedidos" Margin="316,127,316,58"/>
+        <Label Content="MetodoPago" HorizontalAlignment="Left" Margin="538,63,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <ListBox Name="listaPago" Margin="538,127,94,58" />
+        
+
+    </Grid>
+</Window>
